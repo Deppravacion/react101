@@ -3,7 +3,7 @@ import React from 'react';
 class MyClassComp extends React.Component {
   constructor(props) {
     super(props);
-    this.names = ['Tyson', 'Rex', 'Mario', 'OG', 'Mila', 'Pepper'];
+    this.names = ['Tyson', 'Rex', 'Mario', 'OG', 'Mila', 'Pepper', 'Kyle'];
     this.state = {
       name: '',
       count: 0,
@@ -14,7 +14,7 @@ class MyClassComp extends React.Component {
   }
 
 
-  //life cycle hooks
+  //life cycle methods
 
   popup() {
     alert('goodBuy World');

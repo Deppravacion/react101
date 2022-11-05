@@ -1,9 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import MyClassComp from './MyClassComp';
-import CompLayoutEx from './CompLayoutEx';
-import MappingFunctionEx from './MappingFunctionEx';
-import ComponentPropertiesEx from './ComponentPropertiesEx';
+import TodoApp from './TodoApp';
 
 
 
@@ -22,13 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <MyClassComp 
-        propName='Prop Name App' 
-        anotherProp='Another Prop App' 
-        /> */}
-        {/* <CompLayoutEx /> */}
-        {/* <MappingFunctionEx /> */}
-        <ComponentPropertiesEx info={ dataHarryMack } />
+        <TodoApp />
       </header>
     </div>
   );
